@@ -1,0 +1,10 @@
+---
+applications:
+- name:      observr-staging
+  memory:    128M
+  buildpack: sdk-for-nodejs 
+  random-route: false
+  host: observr-staging
+  command: npm run start
+  env: 
+    NODE_ENV: staging 

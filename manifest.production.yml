@@ -1,0 +1,10 @@
+---
+applications:
+- name:      observr
+  memory:    128M
+  buildpack: sdk-for-nodejs
+  random-route: false
+  host: observr
+  command: npm run start
+  env:
+    NODE_ENV: production 
