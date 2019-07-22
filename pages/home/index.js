@@ -18,7 +18,7 @@ const Page = () => isServer() ? null : (
       <Overview/>
       <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-      <Construction>This part is under construction</Construction>
+      <Construction>My projects - This part is under construction</Construction>
 
     </Main>
   </>

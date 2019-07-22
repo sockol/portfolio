@@ -75,8 +75,7 @@ const ResumeBoxWrap = styled(Box)`
   
   z-index: 1;
   text-align: center;
-  position: relative;
-  margin-top: -100px;
+  position: relative; 
   cursor: pointer;
   font-weight: bold;
 

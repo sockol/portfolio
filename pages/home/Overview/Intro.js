@@ -32,7 +32,7 @@ export default ({ progress }) => (
         }}
         fadeIn={progress > .07}
         label={
-          <BubbleLink href="https://github.com/sockol">Github profile</BubbleLink>
+          <BubbleLink target="_blank" href="https://github.com/sockol">Github profile</BubbleLink>
         }
       />
       <AttachmentWithLabel
@@ -50,7 +50,7 @@ export default ({ progress }) => (
         }}
         fadeIn={progress > .12}
         label={
-          <BubbleLink href="https://medium.com/@semur.nabiev">Medium articles</BubbleLink>
+          <BubbleLink target="_blank" href="https://medium.com/@semur.nabiev">Medium articles</BubbleLink>
         }
       />
       <AttachmentWithLabel
@@ -68,7 +68,7 @@ export default ({ progress }) => (
         }}
         fadeIn={progress > .23}
         label={
-          <BubbleLink href="https://www.linkedin.com/in/semur-nabiev-15305382/">LinkedIn</BubbleLink>
+          <BubbleLink target="_blank" href="https://www.linkedin.com/in/semur-nabiev-15305382/">LinkedIn</BubbleLink>
         }
       />
     </IntroWrapAttachments>
@@ -77,7 +77,7 @@ export default ({ progress }) => (
       pathLength={1700}
       progress={progress}
       width="1000"
-      height="600"
+      height="480"
       id="line-1"
       d="
         M 500, 0

@@ -273,7 +273,7 @@ const DevOpsWrap = ({ progress }) => (
         marginLeft: `-15rem`,
         marginTop: `-10rem`,
       }}
-      label={<Bubble>Docker</Bubble>}
+      label="Docker"
     />
     <AttachmentWithLabel
       style={{
@@ -338,7 +338,7 @@ export default ({ progress }) => (
         pathLength={2200}
         progress={progress}
         width="1000"
-        height="700"
+        height="710"
         id="line-2"
         d="
           M 500, 0
@@ -362,7 +362,7 @@ export default ({ progress }) => (
       <BackEndWrap progress={progress}/>
       <DevOpsWrap progress={progress}/>
 
-      <Box fadeIn={progress > .9}>My projects</Box>
+      <Box fadeIn={progress > .9}>Examples on <a href="https://github.com/sockol">GitHub</a></Box>
     </CenterWrap>
 
 
@@ -455,9 +455,8 @@ const BoxWrap = styled.div`
 ;
 
 const Bubble = styled.span`
-  background: black;
-  font-weight: bold;
-  color: white;
+  border: 4px solid black;
+  font-weight: bold; 
   display: inline-block !important;
   width: auto;
   padding: .05rem 1rem ;
