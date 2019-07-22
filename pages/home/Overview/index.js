@@ -93,7 +93,7 @@ class Page extends React.Component {
             {progress => (
               <div>
                 <Intro progress={progress}/>
-                <ResumeBox progress={progress}/>
+                <ResumeBox fadeIn={progress > .9}/>
               </div>
             )}
           </Scene>

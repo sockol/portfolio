@@ -23,8 +23,8 @@ const FrontEndWrap = ({ progress }) => (
   <BoxWrap
     fadeIn={progress > .05}
     style={{
-      marginTop: `10rem`,
-      marginLeft: `10rem`,
+      marginTop: `18%`,
+      marginLeft: `19%`,
     }}
   >
 
@@ -138,8 +138,8 @@ const BackEndWrap = ({ progress }) => (
   <BoxWrap
     fadeIn={progress > .19}
     style={{
-      marginTop: `16rem`,
-      marginLeft: `-23rem`,
+      marginTop: `26%`,
+      marginLeft: `-39%`,
     }}
   >
 
@@ -254,8 +254,8 @@ const DevOpsWrap = ({ progress }) => (
   <BoxWrap
     fadeIn={progress > .43}
     style={{
-      marginTop: `27rem`,
-      marginLeft: `6rem`,
+      marginTop: `45%`,
+      marginLeft: `11%`,
     }}
   >
 

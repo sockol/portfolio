@@ -20,8 +20,8 @@ export default ({ progress }) => (
       <AttachmentWithLabel
         style={{
           left: `50%`,
-          marginLeft: `6rem`,
-          marginTop: `14rem`,
+          marginLeft: `10%`,
+          marginTop: `23%`,
         }}
         labelStyle={{
           marginLeft: `4rem`,
@@ -38,8 +38,8 @@ export default ({ progress }) => (
       <AttachmentWithLabel
         style={{
           left: `50%`,
-          marginLeft: `-6.01rem`,
-          marginTop: `16.5rem`,
+          marginLeft: `-10%`,
+          marginTop: `28%`,
         }}
         labelStyle={{
           marginLeft: `-13rem`,
@@ -56,8 +56,8 @@ export default ({ progress }) => (
       <AttachmentWithLabel
         style={{
           left: `50%`,
-          marginLeft: `18rem`,
-          marginTop: `19.5rem`,
+          marginLeft: `20%`,
+          marginTop: `33%`,
         }}
         labelStyle={{
           marginLeft: `4.5rem`,
@@ -74,7 +74,7 @@ export default ({ progress }) => (
     </IntroWrapAttachments>
 
     <Line
-      pathLength={2500}
+      pathLength={1700}
       progress={progress}
       width="1000"
       height="600"
@@ -88,13 +88,13 @@ export default ({ progress }) => (
         h -200
 
         v 50
-        h 400
+        h 300
 
         v 50
-        h -800
+        h -400
 
         v 50
-        h 500
+        h 200
 
 
         v 100
@@ -162,4 +162,9 @@ const BubbleLink = styled.a`
   width: auto;
   padding: .05rem 1rem ;
   border-radius: 1rem;
+
+  &:hover{
+    background: #333;
+    border-color: #333;
+  }
 `;

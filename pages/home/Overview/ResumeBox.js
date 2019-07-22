@@ -11,9 +11,9 @@ import Line from 'components/Line';
 const DBUG = process.env.NODE_ENV === `development`;
 
 
-export default ({ progress }) => (
+export default ({ fadeIn }) => (
 
-  <ResumeBoxWrap fadeIn={progress > .7}>
+  <ResumeBoxWrap fadeIn={fadeIn}>
 
     <Schematics.Attachment
       style={{
@@ -82,6 +82,11 @@ const ResumeBoxWrap = styled(Box)`
 
   background: black;
   color: white; 
+
+  &:hover{
+    background: #333;
+    border-color: #333;
+  }
 
   div {
     position: absolute; 
