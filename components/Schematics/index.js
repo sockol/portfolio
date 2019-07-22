@@ -1,3 +1,3 @@
-import * as Components from './*.svg';
+import * as Components from './*.js';
 export default Components
 ;

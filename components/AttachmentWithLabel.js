@@ -1,11 +1,11 @@
 import React from 'react';
 import Schematics from './Schematics';
 
-export default ({ label }) => {
+export default ({ label, left, right, fadeIn = true, style, labelStyle, svgStyle }) => {
   return (
-    <Wrap>
-      <Schematics.Attachment/>
-      <span>{label}</span>
+    <Wrap fadeIn={fadeIn} left={left} right={right} style={style}>
+      <Schematics.Attachment style={svgStyle}/>
+      <span style={labelStyle}>{label}</span>
     </Wrap>
   );
 };
@@ -16,13 +16,17 @@ const Wrap = styled.div`
   display: flex;
   flex-direction: column; 
   position: relative;
-  
-  
+ 
+  transition: opacity 0.1s;
+  opacity: ${props => props.fadeIn ? 1 : 0};
+   
   svg{
-    margin: 0 auto;
+    margin-left: auto;
   }
 
   span{
-    margin: 0 auto;
+    margin-left: auto;
+
+    display: block;
   }
 `;

@@ -2,22 +2,24 @@ import React from 'react';
 
 import Link from 'next/link';
 
-import Navigation from 'components/Layout/Navigation';
 import Main from 'components/Layout/Main';
 import Header from './Header';
 import Overview from './Overview';
 
 
-const Page = () => (
+import { isServer } from 'utils/helpers';
+
+
+const Page = () => isServer() ? null : (
 
   <>
     <Main>
       <Header/>
       <Overview/>
-      intro
-      resume
-      projects
-      <Navigation/>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+      <Construction>This part is under construction</Construction>
+
     </Main>
   </>
 );
@@ -31,3 +33,14 @@ Page.getInitialProps = async ({ req }) => {
 };
 
 import styled from 'styled-components';
+
+const Construction = styled.div`
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 2rem;
+`;

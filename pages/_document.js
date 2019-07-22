@@ -42,13 +42,15 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="robots" content="index,follow" />
 
+          <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+
           {this.props.styleTags}
         </Head>
 
-        <BODY id="ibm-com" className="ibm-type">
+        <Body id="ibm-com" className="ibm-type">
           <Main/>
           <NextScript />
-        </BODY>
+        </Body>
       </html>
     );
   }
@@ -58,9 +60,15 @@ export default class MyDocument extends Document {
 
 import styled from 'styled-components';
 
-const BODY = styled.body`
-
+const Body = styled.body`
+  
   background-image: url('/static/background.png'); 
   background-repeat: repeat;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  * {
+    font-family: Roboto, sans-serif; 
+  }
 `
 ;
