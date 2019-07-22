@@ -13,7 +13,7 @@ const DBUG = process.env.NODE_ENV === `development`;
 
 export default ({ fadeIn }) => (
 
-  <ResumeBoxWrap fadeIn={fadeIn}>
+  <ResumeBoxWrap fadeIn={fadeIn} href="/static/Resume-7.21.2019.pdf" rel="nofollow" target="_blank">
 
     <Schematics.Attachment
       style={{
@@ -67,8 +67,14 @@ const Box = styled.div`
 `
 ;
 
-const ResumeBoxWrap = styled(Box)`
-  
+const ResumeBoxWrap = styled.a`
+  border: 4px solid black;
+  border-radius: .5rem;
+  margin: 0 auto; 
+  padding: 1rem;
+  display: table; 
+  width: 100%;
+  text-decoration: none;
   max-width: 10rem;
   transition: opacity 0.1s;
   opacity: ${props => props.fadeIn ? 1 : 0 }; 

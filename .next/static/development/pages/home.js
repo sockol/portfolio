@@ -23942,6 +23942,9 @@ var DBUG = "development" === "development";
   var fadeIn = _ref.fadeIn;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ResumeBoxWrap, {
     fadeIn: fadeIn,
+    href: "/static/Resume-7.21.2019.pdf",
+    rel: "nofollow",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -24001,10 +24004,10 @@ var Box = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConf
   displayName: "ResumeBox__Box",
   componentId: "sc-48xp10-0"
 })(["border:4px solid black;border-radius:.5rem;margin:0 auto;text-align:left;padding:1rem;display:table;max-width:30rem;width:100%;"]);
-var ResumeBoxWrap = Object(styled_components__WEBPACK_IMPORTED_MODULE_8__["default"])(Box).withConfig({
+var ResumeBoxWrap = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].a.withConfig({
   displayName: "ResumeBox__ResumeBoxWrap",
   componentId: "sc-48xp10-1"
-})(["max-width:10rem;transition:opacity 0.1s;opacity:", ";z-index:1;text-align:center;position:relative;cursor:pointer;font-weight:bold;background:black;color:white;&:hover{background:#333;border-color:#333;}div{position:absolute;display:block;height:0;width:0;}"], function (props) {
+})(["border:4px solid black;border-radius:.5rem;margin:0 auto;padding:1rem;display:table;width:100%;max-width:10rem;transition:opacity 0.1s;opacity:", ";z-index:1;text-align:center;position:relative;cursor:pointer;font-weight:bold;background:black;color:white;&:hover{background:#333;border-color:#333;}div{position:absolute;display:block;height:0;width:0;}"], function (props) {
   return props.fadeIn ? 1 : 0;
 });
 
