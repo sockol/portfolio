@@ -71,6 +71,26 @@ export default ({ progress }) => (
           <BubbleLink target="_blank" href="https://www.linkedin.com/in/semur-nabiev-15305382/">LinkedIn</BubbleLink>
         }
       />
+      <AttachmentWithLabel
+        style={{
+          left: `50%`,
+          marginLeft: `-20%`,
+          marginTop: `38%`,
+        }}
+        labelStyle={{
+          marginLeft: `-14rem`,
+          marginTop: `-1.5rem`,
+        }}
+        svgStyle={{
+          transform: `rotate(-226deg)`,
+        }}
+        fadeIn={progress > .23}
+        label={
+          <BubbleLink target="_blank" href="https://www.npmjs.com/~sockol">My NPM Modules</BubbleLink>
+        }
+      />
+
+
     </IntroWrapAttachments>
 
     <Line
