@@ -63,6 +63,12 @@ Having developed an appreciation for design through my work at IBM, I beleieve t
 when enhanced by a deep understanding of the user, leads to real impact for the product.
 */
 
+/*
+I am a full-stack engineer, with a passion for people and technology. <br/><br/>
+Having developed an appreciation for design through my work at IBM,
+I believe that engineering, when enhanced by a deep understanding of the user,
+leads to real impact for the product.
+*/
 const DBUG = process.env.NODE_ENV === `development`;
 
 
@@ -78,10 +84,11 @@ class Page extends React.Component {
           ref={e => this.introRef = e}
           id="introRef"
         >
-        I am a full stack developer, with a passion for people and technology. <br/><br/>
-        Having developed an appreciation for design through my work at IBM,
-        I believe that engineering, when enhanced by a deep understanding of the user,
-        leads to real impact for the product.
+        Having developed an appreciation for design through my work at IBM, I strive to approach every problem with the end-user in mind.
+          <br/><br/>
+
+        On the back-end, I strive to improve upon the development processes and tooling for my team.
+        On the front-end, I seek to gain a deeper understanding of the user to be able to build better experiences.
         </Box>
         <Controller>
           <Scene

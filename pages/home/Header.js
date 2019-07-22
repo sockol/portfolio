@@ -3,8 +3,8 @@ import { Controller, Scene } from 'react-scrollmagic';
 
 export default () => (
   <Wrap>
-    <h2>Portfolio</h2>
-    <h1>Semur Nabiev</h1>
+    <h2>Hello</h2>
+    <h1>I am a full-stack engineer, with a passion for technology and people.</h1>
   </Wrap>
 );
 
