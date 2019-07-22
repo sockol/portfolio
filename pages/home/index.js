@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Link from 'next/link';
+import Head from 'next/head';
 
 import Main from 'components/Layout/Main';
 import Header from './Header';
@@ -13,6 +13,11 @@ import { isServer } from 'utils/helpers';
 const Page = () => isServer() ? null : (
 
   <>
+
+    <Head>
+      <title>Portfolio</title>
+    </Head>
+
     <Main>
       <Header/>
       <Overview/>

@@ -84,7 +84,7 @@ export default ({ progress }) => (
         svgStyle={{
           transform: `rotate(-226deg)`,
         }}
-        fadeIn={progress > .23}
+        fadeIn={progress > .56}
         label={
           <BubbleLink target="_blank" href="https://www.npmjs.com/~sockol">My NPM Modules</BubbleLink>
         }

@@ -2372,24 +2372,177 @@ function (_Document) {
           lineNumber: 45
         },
         __self: this
-      }), this.props.styleTags), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Body, {
-        id: "ibm-com",
-        className: "ibm-type",
+      }), this.props.styleTags, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "57x57",
+        href: "/static/apple-icon-57x57.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "60x60",
+        href: "/static/apple-icon-60x60.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 50
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Main"], {
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "72x72",
+        href: "/static/apple-icon-72x72.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["NextScript"], {
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "76x76",
+        href: "/static/apple-icon-76x76.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 52
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "114x114",
+        href: "/static/apple-icon-114x114.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "120x120",
+        href: "/static/apple-icon-120x120.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "144x144",
+        href: "/static/apple-icon-144x144.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "152x152",
+        href: "/static/apple-icon-152x152.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/static/apple-icon-180x180.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "icon",
+        type: "image/png",
+        sizes: "192x192",
+        href: "/static/android-icon-192x192.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/static/favicon-32x32.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "icon",
+        type: "image/png",
+        sizes: "96x96",
+        href: "/static/favicon-96x96.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "/static/favicon-16x16.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+        rel: "manifest",
+        href: "/static/manifest.json",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
+        name: "msapplication-TileColor",
+        content: "#ffffff",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
+        name: "msapplication-TileImage",
+        content: "/static/ms-icon-144x144.png",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
+        name: "theme-color",
+        content: "#ffffff",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Body, {
+        id: "ibm-com",
+        className: "ibm-type",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Main"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70
         },
         __self: this
       })));
