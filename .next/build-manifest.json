@@ -1,19 +1,50 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_aa8f31c0c93a8f34edc5.js"
-  ],
+  "devFiles": [],
   "pages": {
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
     ],
     "/home": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
+    ],
+    "/home/Header": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
+    ],
+    "/home/Overview": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
+    ],
+    "/home/Overview/About": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
+    ],
+    "/home/Overview/Competencies": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
+    ],
+    "/home/Overview/Intro": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
+    ],
+    "/home/Overview/ResumeBox": [
+      "static/runtime/webpack-8ed9452df514b4d17d80.js",
+      "static/chunks/commons.eb12d1f07b1580c8c009.js",
+      "static/runtime/main-48eb2920995a28b6fca4.js"
     ]
   }
 }
