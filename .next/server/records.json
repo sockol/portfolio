@@ -7,9 +7,9 @@
       "multi private-next-pages/home/index.js": 3,
       "multi private-next-pages/home/Overview/About.js": 4,
       "multi private-next-pages/home/Overview/Competencies.js": 5,
-      "multi private-next-pages/home/Overview/ResumeBox.js": 6,
-      "multi private-next-pages/home/Overview/Intro.js": 7,
-      "multi private-next-pages/home/Overview/index.js": 8,
+      "multi private-next-pages/home/Overview/Intro.js": 6,
+      "multi private-next-pages/home/Overview/index.js": 7,
+      "multi private-next-pages/home/Overview/ResumeBox.js": 8,
       "multi next/dist/pages/_error": 9
     },
     "usedIds": {

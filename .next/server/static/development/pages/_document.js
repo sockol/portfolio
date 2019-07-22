@@ -2358,7 +2358,7 @@ function (_Document) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
         name: "robots",
-        content: "index,follow",
+        content: "noindex,nofollow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43

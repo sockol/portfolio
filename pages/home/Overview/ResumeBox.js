@@ -13,7 +13,7 @@ const DBUG = process.env.NODE_ENV === `development`;
 
 export default ({ fadeIn }) => (
 
-  <ResumeBoxWrap fadeIn={fadeIn} href="/static/Resume-7.21.2019.pdf" rel="nofollow" target="_blank">
+  <ResumeBoxWrap fadeIn={fadeIn} href="/static/resume.pdf" rel="nofollow" target="_blank">
 
     <Schematics.Attachment
       style={{
