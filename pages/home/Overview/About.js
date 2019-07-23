@@ -49,7 +49,7 @@ export default ({ progress }) => (
       "
     />
     <Box fadeIn={progress > .9}>
-      Having developed an appreciation for design through my work at IBM, I strive to approach every problem with the end-user in mind.
+      Having developed an appreciation for design through my work at IBM, I approach every engineering problem with the end-user in mind.
       <br/><br/>
 
       On the back-end, I strive to improve upon the development processes and tooling for my team.
