@@ -49,11 +49,15 @@ export default ({ progress }) => (
       "
     />
     <Box fadeIn={progress > .9}>
-      Having developed an appreciation for design through my work at IBM, I approach every engineering problem with the end-user in mind.
-      <br/><br/>
 
-      On the back-end, I strive to improve upon the development processes and tooling for my team.
+      Having developed an appreciation for design through my work at IBM, I approach every problem with the end-user in mind.
+      <br/><br/>
       On the front-end, I seek to gain a deeper understanding of the user to be able to build better experiences.
+      <br/>
+      On the back-end, I strive to improve upon the development processes and tooling for my team.
+      <br/><br/>
+      Since graduating from the University of Texas at Austin, I had the opportunity to work on a cross functional team of developers and designers, contribute across the full stack on multiple applications using React, Node and Postgres, and take a green-field project from the initial scoping to scaling it as it gained traction.
+
     </Box>
 
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

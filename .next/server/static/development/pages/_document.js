@@ -2372,13 +2372,13 @@ function (_Document) {
           lineNumber: 45
         },
         __self: this
-      }), this.props.styleTags, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
+      }), this.props.styleTags,  false && false, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
         rel: "apple-touch-icon",
         sizes: "57x57",
         href: "/static/apple-icon-57x57.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 57
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2387,7 +2387,7 @@ function (_Document) {
         href: "/static/apple-icon-60x60.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 58
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2396,7 +2396,7 @@ function (_Document) {
         href: "/static/apple-icon-72x72.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 59
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2405,7 +2405,7 @@ function (_Document) {
         href: "/static/apple-icon-76x76.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 60
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2414,7 +2414,7 @@ function (_Document) {
         href: "/static/apple-icon-114x114.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 61
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2423,7 +2423,7 @@ function (_Document) {
         href: "/static/apple-icon-120x120.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 62
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2432,7 +2432,7 @@ function (_Document) {
         href: "/static/apple-icon-144x144.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 63
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2441,7 +2441,7 @@ function (_Document) {
         href: "/static/apple-icon-152x152.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 64
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2450,7 +2450,7 @@ function (_Document) {
         href: "/static/apple-icon-180x180.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 65
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2460,7 +2460,7 @@ function (_Document) {
         href: "/static/android-icon-192x192.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 66
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2470,7 +2470,7 @@ function (_Document) {
         href: "/static/favicon-32x32.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 67
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2480,7 +2480,7 @@ function (_Document) {
         href: "/static/favicon-96x96.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 68
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2490,7 +2490,7 @@ function (_Document) {
         href: "/static/favicon-16x16.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 69
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2498,7 +2498,7 @@ function (_Document) {
         href: "/static/manifest.json",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 70
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
@@ -2506,7 +2506,7 @@ function (_Document) {
         content: "#ffffff",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 71
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
@@ -2514,7 +2514,7 @@ function (_Document) {
         content: "/static/ms-icon-144x144.png",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 72
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
@@ -2522,7 +2522,7 @@ function (_Document) {
         content: "#ffffff",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 73
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(Body, {
@@ -2530,19 +2530,19 @@ function (_Document) {
         className: "ibm-type",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 76
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 77
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 78
         },
         __self: this
       })));
