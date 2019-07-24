@@ -363,6 +363,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./no
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/core-js/library/fn/json/stringify.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
@@ -1096,6 +1107,22 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 __webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
 __webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
 module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_modules/core-js/library/modules/core.is-iterable.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/json/stringify.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/json/stringify.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js");
+var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
+module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
 
 
 /***/ }),
@@ -23042,7 +23069,8 @@ var _jsxFileName = "/Users/semurnabiev/Zadachi/Portfolio/pages/home/Overview/Abo
 
 var DBUG = "development" === "development";
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var progress = _ref.progress;
+  var children = _ref.children,
+      progress = _ref.progress;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CenterWrap, {
     __source: {
       fileName: _jsxFileName,
@@ -23075,106 +23103,76 @@ var DBUG = "development" === "development";
       lineNumber: 51
     },
     __self: this
-  }, "Having developed an appreciation for design through my work at IBM, I approach every problem with the end-user in mind.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }), "On the front-end, I seek to gain a deeper understanding of the user to be able to build better experiences.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }), "On the back-end, I strive to improve upon the development processes and tooling for my team.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }), "Since graduating from the University of Texas at Austin, I had the opportunity to work on a cross functional team of developers and designers, contribute across the full stack on multiple applications using React, Node and Postgres, and take a green-field project from the initial scoping to scaling it as it gained traction."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 53
     },
     __self: this
   }));
@@ -23742,8 +23740,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_AttachmentWithLabel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../components/AttachmentWithLabel */ "./components/AttachmentWithLabel.js");
 /* harmony import */ var _components_Schematics_And_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/Schematics/And.js */ "./components/Schematics/And.js");
 /* harmony import */ var _components_Line__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/Line */ "./components/Line.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _utils_analyticsAdapter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../utils/analyticsAdapter */ "./utils/analyticsAdapter.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 var _jsxFileName = "/Users/semurnabiev/Zadachi/Portfolio/pages/home/Overview/Intro.js";
+
 
 
 
@@ -23757,20 +23757,20 @@ var DBUG = "development" === "development";
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CenterWrap, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledAnd, {
     rotationDegrees: 90,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IntroWrapAttachments, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AttachmentWithLabel__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -23790,15 +23790,20 @@ var DBUG = "development" === "development";
     label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BubbleLink, {
       target: "_blank",
       href: "https://github.com/sockol",
+      onClick: function onClick(e) {
+        return _utils_analyticsAdapter__WEBPACK_IMPORTED_MODULE_7__["default"].recordLinkClick({
+          type: "github"
+        });
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 37
       },
       __self: this
     }, "Github profile"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AttachmentWithLabel__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -23818,15 +23823,20 @@ var DBUG = "development" === "development";
     label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BubbleLink, {
       target: "_blank",
       href: "https://medium.com/@semur.nabiev",
+      onClick: function onClick(e) {
+        return _utils_analyticsAdapter__WEBPACK_IMPORTED_MODULE_7__["default"].recordLinkClick({
+          type: "medium"
+        });
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 55
       },
       __self: this
     }, "Medium articles"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AttachmentWithLabel__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -23846,15 +23856,20 @@ var DBUG = "development" === "development";
     label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BubbleLink, {
       target: "_blank",
       href: "https://www.linkedin.com/in/semur-nabiev-15305382/",
+      onClick: function onClick(e) {
+        return _utils_analyticsAdapter__WEBPACK_IMPORTED_MODULE_7__["default"].recordLinkClick({
+          type: "linkedin"
+        });
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71
+        lineNumber: 73
       },
       __self: this
     }, "LinkedIn"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 58
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AttachmentWithLabel__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -23874,15 +23889,20 @@ var DBUG = "development" === "development";
     label: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BubbleLink, {
       target: "_blank",
       href: "https://www.npmjs.com/~sockol",
+      onClick: function onClick(e) {
+        return _utils_analyticsAdapter__WEBPACK_IMPORTED_MODULE_7__["default"].recordLinkClick({
+          type: "npm"
+        });
+      },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 89
+        lineNumber: 91
       },
       __self: this
     }, "My NPM Modules"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 76
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Line__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -23894,31 +23914,31 @@ var DBUG = "development" === "development";
     d: " M 500, 0 v 200 h 100 v 50 h -200 v 50 h 300 v 50 h -400 v 50 h 200 v 100 ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 98
     },
     __self: this
   }));
 });
 
-var CenterWrap = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
+var CenterWrap = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   displayName: "Intro__CenterWrap",
   componentId: "sc-7vr4ik-0"
 })(["display:block;margin:0 auto;width:100%;"]);
-var StyledAnd = Object(styled_components__WEBPACK_IMPORTED_MODULE_7__["default"])(_components_Schematics_And_js__WEBPACK_IMPORTED_MODULE_5__["default"]).withConfig({
+var StyledAnd = Object(styled_components__WEBPACK_IMPORTED_MODULE_8__["default"])(_components_Schematics_And_js__WEBPACK_IMPORTED_MODULE_5__["default"]).withConfig({
   displayName: "Intro__StyledAnd",
   componentId: "sc-7vr4ik-1"
 })(["  transform:rotate(", "deg);margin:0 auto;display:block;height:50px;width:72px;margin-top:-12px;margin-bottom:10px;"], function (props) {
   return props.rotationDegrees || 0;
 });
-var IntroWrapAttachments = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
+var IntroWrapAttachments = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   displayName: "Intro__IntroWrapAttachments",
   componentId: "sc-7vr4ik-2"
 })(["  position:relative;div{position:absolute;display:block;height:0;width:0;span{white-space:nowrap;display:block;}}"]);
-var Box = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div.withConfig({
+var Box = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   displayName: "Intro__Box",
   componentId: "sc-7vr4ik-3"
 })(["border:4px solid black;border-radius:.5rem;margin:0 auto;text-align:left;padding:1rem;display:table;max-width:30rem;width:100%;line-height:1.5rem;"]);
-var BubbleLink = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].a.withConfig({
+var BubbleLink = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].a.withConfig({
   displayName: "Intro__BubbleLink",
   componentId: "sc-7vr4ik-4"
 })(["background:black;font-weight:bold;color:white;display:inline-block;text-decoration:none;width:auto;padding:.05rem 1rem;border-radius:1rem;&:hover{background:#333;border-color:#333;}"]);
@@ -23943,9 +23963,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_AttachmentWithLabel__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../components/AttachmentWithLabel */ "./components/AttachmentWithLabel.js");
 /* harmony import */ var _components_Schematics_And_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../components/Schematics/And.js */ "./components/Schematics/And.js");
 /* harmony import */ var _components_Line__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../components/Line */ "./components/Line.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _utils_analyticsAdapter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../utils/analyticsAdapter */ "./utils/analyticsAdapter.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
 var _jsxFileName = "/Users/semurnabiev/Zadachi/Portfolio/pages/home/Overview/ResumeBox.js";
+
 
 
 
@@ -23963,9 +23985,12 @@ var DBUG = "development" === "development";
     href: "/static/resume.pdf",
     rel: "nofollow",
     target: "_blank",
+    onClick: function onClick(e) {
+      return _utils_analyticsAdapter__WEBPACK_IMPORTED_MODULE_8__["default"].recordResumeDownload();
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Schematics__WEBPACK_IMPORTED_MODULE_4__["default"].Attachment, {
@@ -23976,7 +24001,7 @@ var DBUG = "development" === "development";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Schematics__WEBPACK_IMPORTED_MODULE_4__["default"].Attachment, {
@@ -23988,7 +24013,7 @@ var DBUG = "development" === "development";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Schematics__WEBPACK_IMPORTED_MODULE_4__["default"].Attachment, {
@@ -23999,7 +24024,7 @@ var DBUG = "development" === "development";
     }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "marginTop", "1.7rem"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref2, "marginLeft", "4rem"), _ref2),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Schematics__WEBPACK_IMPORTED_MODULE_4__["default"].Attachment, {
@@ -24012,17 +24037,17 @@ var DBUG = "development" === "development";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 43
     },
     __self: this
   }), "Resume");
 });
 
-var Box = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
+var Box = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div.withConfig({
   displayName: "ResumeBox__Box",
   componentId: "sc-48xp10-0"
 })(["border:4px solid black;border-radius:.5rem;margin:0 auto;text-align:left;padding:1rem;display:table;max-width:30rem;width:100%;"]);
-var ResumeBoxWrap = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].a.withConfig({
+var ResumeBoxWrap = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].a.withConfig({
   displayName: "ResumeBox__ResumeBoxWrap",
   componentId: "sc-48xp10-1"
 })(["border:4px solid black;border-radius:.5rem;margin:0 auto;padding:1rem;display:table;width:100%;text-decoration:none;max-width:10rem;transition:opacity 0.1s;opacity:", ";z-index:1;text-align:center;position:relative;cursor:pointer;font-weight:bold;background:black;color:white;&:hover{background:#333;border-color:#333;}div{position:absolute;display:block;height:0;width:0;}"], function (props) {
@@ -24185,20 +24210,44 @@ function (_React$Component) {
         },
         __self: this
       }, function (progress) {
-        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_About__WEBPACK_IMPORTED_MODULE_13__["default"], {
+          progress: progress,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 114
           },
           __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_About__WEBPACK_IMPORTED_MODULE_13__["default"], {
-          progress: progress,
+        }, "Having developed an appreciation for design through my work at IBM, I approach every problem with the end-user in mind.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 115
+            lineNumber: 116
           },
           __self: this
-        }));
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 116
+          },
+          __self: this
+        }), "On the front-end, I seek to gain a deeper understanding of the user to be able to build better experiences.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 118
+          },
+          __self: this
+        }), "On the back-end, I strive to improve upon the development processes and tooling for my team.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 120
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 120
+          },
+          __self: this
+        }), "Since graduating from the University of Texas at Austin, I had the opportunity to work on a cross functional team of developers and designers, contribute across the full stack on multiple applications using React, Node and Postgres, and take a green-field project from the initial scoping to scaling it as it gained traction.");
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_scrollmagic__WEBPACK_IMPORTED_MODULE_6__["Scene"], {
         duration: 1000,
         offset: window.innerHeight / 2,
@@ -24206,7 +24255,7 @@ function (_React$Component) {
         pin: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 125
         },
         __self: this
       }, function (progress) {
@@ -24216,21 +24265,21 @@ function (_React$Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 126
+            lineNumber: 132
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_12__["default"], {
           progress: progress,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 127
+            lineNumber: 133
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_ResumeBox__WEBPACK_IMPORTED_MODULE_14__["default"], {
           fadeIn: progress > .9,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 128
+            lineNumber: 134
           },
           __self: this
         }));
@@ -24240,7 +24289,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 139
         },
         __self: this
       }, "I have worked the most with Node, React & Postgres"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_scrollmagic__WEBPACK_IMPORTED_MODULE_6__["Scene"], {
@@ -24250,21 +24299,21 @@ function (_React$Component) {
         pin: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 141
         },
         __self: this
       }, function (progress) {
         return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 142
+            lineNumber: 148
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Competencies__WEBPACK_IMPORTED_MODULE_15__["default"], {
           progress: progress,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 143
+            lineNumber: 149
           },
           __self: this
         }));
@@ -24452,6 +24501,60 @@ var Construction = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div
 
 /***/ }),
 
+/***/ "./utils/analyticsAdapter.js":
+/*!***********************************!*\
+  !*** ./utils/analyticsAdapter.js ***!
+  \***********************************/
+/*! exports provided: recordAction, recordClick, recordResumeDownload, recordLinkClick, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recordAction", function() { return recordAction; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recordClick", function() { return recordClick; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recordResumeDownload", function() { return recordResumeDownload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recordLinkClick", function() { return recordLinkClick; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./helpers */ "./utils/helpers.js");
+
+
+var DBUG = "development" === "stage";
+
+var recordAction = function recordAction() {
+  var key = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "action";
+  var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  if (Object(_helpers__WEBPACK_IMPORTED_MODULE_2__["isServer"])()) return DBUG && console.warn("Error - analytics not enabled on server");
+  if (typeof heap === undefined) return DBUG && console.warn("Error - analytics not enabled");
+
+  try {
+    DBUG && console.warn("Analytics [".concat(key, "] - "), data ? _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_1___default()(data) : "");
+    heap.track(key, data);
+  } catch (error) {
+    DBUG && console.warn("Error - ".concat(error));
+  }
+};
+var recordClick = function recordClick() {
+  var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return recordAction("Click", Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, data));
+};
+var recordResumeDownload = function recordResumeDownload() {
+  var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return recordAction("Resume Download", Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, data));
+};
+var recordLinkClick = function recordLinkClick() {
+  var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  return recordAction("Click Link", Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, data));
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  recordClick: recordClick,
+  recordResumeDownload: recordResumeDownload,
+  recordLinkClick: recordLinkClick
+});
+
+/***/ }),
+
 /***/ "./utils/helpers.js":
 /*!**************************!*\
   !*** ./utils/helpers.js ***!
@@ -24471,7 +24574,7 @@ var isServer = function isServer() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fhome&absolutePagePath=%2FUsers%2Fsemurnabiev%2FZadachi%2FPortfolio%2Fpages%2Fhome%2Findex.js ***!
   \*******************************************************************************************************************************************/
@@ -24494,5 +24597,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=home.js.map

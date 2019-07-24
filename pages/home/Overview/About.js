@@ -11,7 +11,7 @@ import Line from 'components/Line';
 const DBUG = process.env.NODE_ENV === `development`;
 
 
-export default ({ progress }) => (
+export default ({ children, progress }) => (
   <CenterWrap>
 
     <StyledAnd rotationDegrees={90}/>
@@ -48,17 +48,7 @@ export default ({ progress }) => (
         v 100
       "
     />
-    <Box fadeIn={progress > .9}>
-
-      Having developed an appreciation for design through my work at IBM, I approach every problem with the end-user in mind.
-      <br/><br/>
-      On the front-end, I seek to gain a deeper understanding of the user to be able to build better experiences.
-      <br/>
-      On the back-end, I strive to improve upon the development processes and tooling for my team.
-      <br/><br/>
-      Since graduating from the University of Texas at Austin, I had the opportunity to work on a cross functional team of developers and designers, contribute across the full stack on multiple applications using React, Node and Postgres, and take a green-field project from the initial scoping to scaling it as it gained traction.
-
-    </Box>
+    <Box fadeIn={progress > .9}>{children}</Box>
 
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 

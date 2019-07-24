@@ -7,13 +7,14 @@ import Schematics from 'components/Schematics';
 import AttachmentWithLabel from 'components/AttachmentWithLabel';
 import AndGate from 'components/Schematics/And.js';
 import Line from 'components/Line';
+import analyticsAdapter from 'utils/analyticsAdapter';
 
 const DBUG = process.env.NODE_ENV === `development`;
 
 
 export default ({ fadeIn }) => (
 
-  <ResumeBoxWrap fadeIn={fadeIn} href="/static/resume.pdf" rel="nofollow" target="_blank">
+  <ResumeBoxWrap fadeIn={fadeIn} href="/static/resume.pdf" rel="nofollow" target="_blank" onClick={e => analyticsAdapter.recordResumeDownload()}>
 
     <Schematics.Attachment
       style={{

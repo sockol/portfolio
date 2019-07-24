@@ -36,8 +36,6 @@ export default class MyDocument extends Document {
         {/* NOTE: next does not compose nested HEAD tags into one. just takes the latest one. so this can get overridden by SeoInjector  */}
         <Head>
 
-          { process.env.HEAP_KEY && <Heap appId={process.env.HEAP_KEY} /> }
-
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="robots" content="noindex,nofollow" />
@@ -48,10 +46,12 @@ export default class MyDocument extends Document {
 
           {
             process.env.NODE_ENV === `production` &&
-            <script type="text/javascript">{` 
+            <script
+              type="text/javascript" dangerouslySetInnerHTML={{ __html: ` 
               window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
-              heap.load("1475914233"); 
-            `}</script>
+              heap.load("2241644254");
+            ` }}
+            />
           }
 
           <link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png"/>

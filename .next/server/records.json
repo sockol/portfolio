@@ -3,8 +3,8 @@
     "byIdentifier": {
       "multi private-next-pages/_app.js": 0,
       "multi private-next-pages/_document.js": 1,
-      "multi private-next-pages/home/index.js": 2,
-      "multi private-next-pages/home/Header.js": 3,
+      "multi private-next-pages/home/Header.js": 2,
+      "multi private-next-pages/home/index.js": 3,
       "multi private-next-pages/home/Overview/About.js": 4,
       "multi private-next-pages/home/Overview/Competencies.js": 5,
       "multi private-next-pages/home/Overview/ResumeBox.js": 6,

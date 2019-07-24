@@ -8,6 +8,8 @@ import AttachmentWithLabel from 'components/AttachmentWithLabel';
 import AndGate from 'components/Schematics/And.js';
 import Line from 'components/Line';
 
+
+import analyticsAdapter from 'utils/analyticsAdapter';
 const DBUG = process.env.NODE_ENV === `development`;
 
 
@@ -32,7 +34,7 @@ export default ({ progress }) => (
         }}
         fadeIn={progress > .07}
         label={
-          <BubbleLink target="_blank" href="https://github.com/sockol">Github profile</BubbleLink>
+          <BubbleLink target="_blank" href="https://github.com/sockol" onClick={e => analyticsAdapter.recordLinkClick({ type: `github` })}>Github profile</BubbleLink>
         }
       />
       <AttachmentWithLabel
@@ -50,7 +52,7 @@ export default ({ progress }) => (
         }}
         fadeIn={progress > .12}
         label={
-          <BubbleLink target="_blank" href="https://medium.com/@semur.nabiev">Medium articles</BubbleLink>
+          <BubbleLink target="_blank" href="https://medium.com/@semur.nabiev" onClick={e => analyticsAdapter.recordLinkClick({ type: `medium` })}>Medium articles</BubbleLink>
         }
       />
       <AttachmentWithLabel
@@ -68,7 +70,7 @@ export default ({ progress }) => (
         }}
         fadeIn={progress > .23}
         label={
-          <BubbleLink target="_blank" href="https://www.linkedin.com/in/semur-nabiev-15305382/">LinkedIn</BubbleLink>
+          <BubbleLink target="_blank" href="https://www.linkedin.com/in/semur-nabiev-15305382/" onClick={e => analyticsAdapter.recordLinkClick({ type: `linkedin` })}>LinkedIn</BubbleLink>
         }
       />
       <AttachmentWithLabel
@@ -86,7 +88,7 @@ export default ({ progress }) => (
         }}
         fadeIn={progress > .56}
         label={
-          <BubbleLink target="_blank" href="https://www.npmjs.com/~sockol">My NPM Modules</BubbleLink>
+          <BubbleLink target="_blank" href="https://www.npmjs.com/~sockol" onClick={e => analyticsAdapter.recordLinkClick({ type: `npm` })}>My NPM Modules</BubbleLink>
         }
       />
 

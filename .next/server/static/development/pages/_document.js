@@ -2334,18 +2334,11 @@ function (_Document) {
           lineNumber: 37
         },
         __self: this
-      }, process.env.HEAP_KEY && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react_heap__WEBPACK_IMPORTED_MODULE_11___default.a, {
-        appId: process.env.HEAP_KEY,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
+      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
         charSet: "UTF-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 39
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
@@ -2353,7 +2346,7 @@ function (_Document) {
         content: "width=device-width, initial-scale=1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 40
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("meta", {
@@ -2361,7 +2354,7 @@ function (_Document) {
         content: "noindex,nofollow",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 41
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {
@@ -2369,7 +2362,7 @@ function (_Document) {
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 43
         },
         __self: this
       }), this.props.styleTags,  false && false, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("link", {

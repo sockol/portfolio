@@ -6,7 +6,7 @@ import { isServer } from './helpers';
 export const recordAction = (key = `action`, data = {}) => {
   if (isServer())
     return DBUG && console.warn(`Error - analytics not enabled on server`);
-  if (!heap)
+  if (typeof heap === undefined)
     return DBUG && console.warn(`Error - analytics not enabled`);
   try {
     DBUG && console.warn(`Analytics [${key}] - `, data ? JSON.stringify(data) : ``);
@@ -17,9 +17,12 @@ export const recordAction = (key = `action`, data = {}) => {
 };
 
 export const recordClick = (data = {}) => recordAction(`Click`, { ...data });
-export const recordClickReport = (data = {}) => recordAction(`Report Click`, { ...data });
+export const recordResumeDownload = (data = {}) => recordAction(`Resume Download`, { ...data });
+export const recordLinkClick = (data = {}) => recordAction(`Click Link`, { ...data });
 
 export default {
-  recordClickReport,
+  recordClick,
+  recordResumeDownload,
+  recordLinkClick,
 }
 ;
